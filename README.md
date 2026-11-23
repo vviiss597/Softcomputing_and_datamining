@@ -15,8 +15,21 @@
 
 ---
 ## 3. **NB ( Naive Bayes):**
-    - data are independent to each other
-    - Calculate probability
+- Assume : data are independent to each other
+- Bayes’ theorem :
+
+$$
+\text{Posterior} = \frac{\text{Likelihood} \times \text{Prior}}{\text{Evidence}}
+$$
+
+
+$$
+P(C=c \mid \mathbf{x}) = \frac{P(\mathbf{x} \mid C=c) \cdot P(C=c)}{P(\mathbf{x})}
+$$
+
+
+- Explain :  
+  - Prior probability : 
 
 ---
 ## 4. **SVM ( Support Vector Machine):**
